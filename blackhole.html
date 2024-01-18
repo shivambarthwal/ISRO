@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Black hole</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url('star.jpg');
+
+        }
+        .box {
+            margin: 0;
+            padding: 0;
+            background-image: url('star.jpg');
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav {
+
+            background-color: black;
+            background-image: url('star.jpg');
+            margin: 0;
+            padding: 0;
+            font-size: 50px;
+            font-weight: 300;
+            color: antiquewhite;
+            text-align: center;
+        }
+
+        .text p {
+            font-size: 20px;
+            color: white;
+
+        }
+
+        .text h1 {
+            color: white;
+        }
+
+        .content {
+            margin: 20px;
+        }
+
+        .text2 h1 {
+            color: white;
+        }
+
+        .text2 p {
+            font-size: 20px;
+            color: white;
+        }
+
+        .card {
+            /* Add shadows to create the "card" effect */
+            width: 450px;
+            height: 500px;
+            box-shadow: 0 4px 8px 0 rgba(255, 255, 250, 0.92);
+            transition: 0.3s;
+        }
+
+        .card img {
+            width: 450px;
+            height: 390px;
+        }
+
+        /* On mouse-over, add a deeper shadow */
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(235, 227, 227, 0.94);
+        }
+
+        /* Add some padding inside the card container */
+        .container {
+
+            padding: 2px 16px;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        .laptop {
+            width: 50%;
+            max-width: 1200px;
+            position: relative;
+        }
+
+        .laptop img {
+            width: 100%;
+        }
+
+        .laptop video {
+            position: absolute;
+            width: 68.7%;
+            height: 81.3%;
+            background: #000;
+            top: 7.1%;
+            left: 17.5%;
+        }
+    </style>
+</head>
+
+<body>
+        <div class="nav">BLACK HOLE</div>
+    <div class="box">
+        <div class="laptop">
+            <img src="res/laptop.png" alt="">
+            <video src="res/blackhole.mp4" controls autoplay loop></video>
+        </div>
+    </div>
+    <div class="text">
+        <h1>What are Black Holes?</h1>
+        <p>
+            A black hole is a region of space packed with so much matter that its own gravity prevents anything from
+            escaping — even a ray of light. Although we can’t see a black hole, the material around it is visible.
+            Material falling into a black hole forms a disk, similar to a whirlpool in a bathtub drain. Matter swirling
+            around a black hole heats up and emits radiation that can be detected. Around a stellar black hole, this
+            matter is composed of gas. Around a supermassive black hole in the center of a galaxy, the swirling disk is
+            made not only of gas but also of stars.</p>
+    </div>
+    <div class="card">
+        <img src="hole1.jpg" alt="Avatar">
+        <div class="container">
+            <h4><b>NASA</b></h4>
+            <p>Hubble Spacecraft 2007</p>
+        </div>
+    </div>
+    <div class="text2">
+        <h1>How Does Hubble Find Black Holes?</h1>
+        <p>
+            Many of Hubble’s first observations showed the effects of supermassive black holes on their immediate
+            galactic environment. In 1990, shortly after launch, Hubble imaged a 30,000-light-year-long jet emanating
+            from a galaxy known to be a prodigious emitter of radio light. With Hubble’s observations, astronomers had
+            the data they needed to determine that these jets come from very small regions in the centers of galaxies
+            and are likely powered by supermassive black holes.
+
+            Hubble’s fine resolution — the ability to see tiny details — helped propel the case for supermassive black
+            holes even further in 1994, when astronomers took spectra of the gas in the center of the elliptical galaxy
+            M87. Spectra, or the breaking up of light into component colors, can give astronomers a great deal of
+            information about the gas, including its velocity. Astronomers noted that in M87 the central gas was
+            circling in a disk at very high speeds around a small but massive object. The only type of object that can
+            be that massive and yet very small in size is a black hole. These observations by Hubble helped confirm
+            nearly two centuries of theories and conjectures about the existence of black holes.
+
+            The Space Telescope Imaging Spectrograph (STIS), an instrument installed on Hubble in February 1997, is the
+            space telescope’s main “black hole hunter.” A spectrograph uses prisms or diffraction gratings to split the
+            incoming light into its rainbow pattern. Each element interacts with light in a unique rainbow signature.
+            The position and strength of those signatures in a spectrum gives scientists valuable information, such as
+            how fast the stars and gas are moving. STIS can take a spectrum of many places at once across the center of
+            a galaxy. With that information, the central mass that the stars are orbiting can be calculated. The faster
+            the stars go, the more massive the central object must be.
+        </p>
+    </div>
+<script src="black.js"><</script>
+</html>
